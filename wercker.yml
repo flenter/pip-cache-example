@@ -3,6 +3,11 @@ box: wercker/python
 build:
   # The steps that will be executed on build
   steps:
+    - script:
+        name: install swig
+        code: |
+          sudo apt-get install swig
+
     # A step that executes `pip install` command
     - flenter/pip-install-cached
 
