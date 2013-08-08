@@ -10,7 +10,6 @@ build:
     - script:
         name: freeze
         code: sudo pip freeze
-
     - script:
         name: install swig
         code: |
