@@ -3,10 +3,10 @@ box: wercker/python
 build:
   # The steps that will be executed on build
   steps:
-    - script: 
-        name: clear cache
-        code: |
-          sudo rm -rf $WERCKER_CACHE_DIR/*
+    #    - script: 
+    #    name: clear cache
+    #    code: |
+    #      sudo rm -rf $WERCKER_CACHE_DIR/*
 
     - script:
         name: freeze
