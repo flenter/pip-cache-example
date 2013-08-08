@@ -1,4 +1,4 @@
-box: python
+box: wercker/python
 # Build definition
 build:
   # The steps that will be executed on build
